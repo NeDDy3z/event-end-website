@@ -1,8 +1,7 @@
 {
-  "name": "web_deployment_finalwork",
+  "name": "predpoved_pocasi",
   "version": "1.0.0",
-  "description": "",
-  "main": "public/script.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.1"
-  }
+    "axios": "^1.6.7",
+    "compression": "^1.7.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "node-cache": "^5.1.2",
+    "nodemon": "^3.1.0"
+  },
+  "description": ""
 }

@@ -1,0 +1,195 @@
+/*header*/
+header {
+    padding: .5rem;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+header span {
+    color: #7e0000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from anchor links */
+    font-size: 18px; /* Font size for the navigation links */
+    font-weight: bold;
+    color: #565656;
+}
+
+nav ul li a:hover {
+    color: #7e0000;
+}
+
+/*body*/
+body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*footer*/
+footer {
+  text-align: center;
+  margin-top: auto;
+  padding-bottom: 5px;
+}
+footer p {
+  margin:0;
+  padding:0;
+}
+
+
+
+/*index page*/
+.index {
+    max-width: 50vw;
+    margin: 20px auto;
+    padding: 25px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.index .od {
+    padding: 0px;
+    flex-direction: row;  
+}
+
+.odkazy {
+    max-width: 50vw;
+    margin: 20px auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    
+    
+}
+
+.odkazy a {
+    border: 2px solid #7e0000;
+    border-radius: 20px;
+    padding: 1rem;
+    width: 6rem;
+    
+    text-decoration: none;
+    text-align: center;
+    color: #7e0000;
+}
+
+.odkazy a:hover {
+    color: white;
+    background-color: #7e0000;
+}
+
+
+
+/*contacts page*/
+.container {
+    max-width: 50vw;
+    margin: 0 auto;
+    padding: 50px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.contact-info {
+    grid-column: 1 / span 1;
+}
+
+.contact-info ul {
+  padding: 0;
+  margin: 0;
+  
+  padding-left: 15px;
+}
+
+.contact-info li {
+    margin: 10px;
+}
+
+.contact-form {
+    grid-column: 2 / span 1;
+}
+
+
+form {
+    margin-top: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #7e0000;
+    color: #fff;
+    border: 1px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+input[type="submit"]:hover {
+    background-color: #f4f4f4;
+    border: solid 1px #7e0000;
+    color: #7e0000;
+}
+
+
+
+/*misto & program*/
+.misto, .program {
+    max-width: 50vw;
+    margin: 0 auto;
+    padding: 50px;
+    
+    display: flex;
+    flex-direction: column;   
+}
+
+.misto h2, .program h2, .program .h4, .program p {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+
